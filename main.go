@@ -9,7 +9,7 @@ import (
 var (
 	addr         = flag.String("s", ":8080", "server address")
 	sessionPath  = flag.String("sp", "/tmp/hst_session", "session path")
-	oauth2Server = flag.String("o2", "https://oauth2.cdeyun.com", "oauth2 server")
+	oauth2Server = flag.String("o2", "http://127.0.0.1:8000", "oauth2 server")
 )
 
 func main() {
