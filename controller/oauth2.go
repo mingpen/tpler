@@ -18,7 +18,7 @@ type Oauth2Controller struct {
 
 var (
 	oauthStateString = "random"
-	oauthServerHost  = "https://oauth2.cdeyun.com"
+	oauthServerHost  = "http://127.0.0.1:8000"
 	oauthRedirectURL = "/oauth2/callback"
 )
 
